@@ -15,23 +15,27 @@
 <section class="slide" id="cover">
     <h2>Drone Panoramas with <a href="http://www.dronepan.com">DronePan</a></h2>
     <p>Chris Searle</p>
-    <img src="pictures/cover.jpg" alt="" class="cover">
+    <img src="https://c8.staticflickr.com/2/1484/26349654775_af82c55177_b.jpg" alt="" class="cover">
     <!--
         To apply styles to the certain slides
         set slide ID to get needed elements
         -->
     <style>
         #cover h2 {
-            margin: 30px 0 0;
-            color: #FFF;
+            margin: 70px 0 0;
+            color: #333;
             text-align: center;
             font-size: 70px;
+        }
+
+        #cover h2 a {
+            color: #333;
         }
 
         #cover p {
             margin: 10px 0 0;
             text-align: center;
-            color: #FFF;
+            color: #000;
             font-style: italic;
             font-size: 20px;
         }
@@ -41,23 +45,13 @@
         }
     </style>
 </section>
-<section class="slide">
-    <h2>Notes on order - slide to be removed</h2>
-    <ol>
-        <li>Brief about getting involved, adding travis, adding codecov, swift, tests</li>
-        <li>Demo pano</li>
-        <li>Live pano</li>
-        <li>Stitch and show</li>
-    </ol>
-    <p class="note">Shower ['ʃəuə] noun. A person or thing that shows.</p>
-</section>
 <section class="slide" id="background">
     <h2>Background</h2>
 
     <div class="container">
-        <p class="one">Why?</p>
-        <p class="two next">Who?</p>
-        <p class="three next">What?</p>
+        <p class="one">What?</p>
+        <p class="two next">Why?</p>
+        <p class="three next">Who?</p>
     </div>
 
     <style>
@@ -89,6 +83,29 @@
         }
     </style>
 </section>
+<section class="slide" id="pano">
+    <h2>Aerial Panorama</h2>
+    <img src="https://c8.staticflickr.com/2/1484/26349654775_af82c55177_b.jpg" alt="" class="cover">
+    <p class="next">But what's a spherical panorama?</p>
+    <style>
+        #pano p {
+            margin: 310px 0 0;
+            font-style: italic;
+        }
+    </style>
+</section>
+<section class="slide">
+    <h2>Theta S</h2>
+</section>
+<section class="slide" id="svarterud">
+    <iframe src="https://www.searle.me.uk/static/2016/02/28/pano/"></iframe>
+    <style>
+        #svarterud iframe {
+            width: 100%;
+            height: 90%;
+        }
+    </style>
+</section>
 <section class="slide">
     <h2>DronePan Development</h2>
 
@@ -102,6 +119,7 @@
 
     <ul>
         <li><a href="https://travis-ci.org/dbaldwin/DronePan">Travis CI</a></li>
+        <li><a href="https://codecov.io/github/dbaldwin/DronePan">CodeCov</a></li>
     </ul>
 </section>
 <section class="slide">
@@ -110,15 +128,6 @@
     <ul>
         <li><a href="https://www.facebook.com/groups/dronepan/">Facebook community</a></li>
     </ul>
-</section>
-<section class="slide" id="svarterud">
-    <iframe src="https://www.searle.me.uk/static/2016/02/28/pano/"></iframe>
-    <style>
-        #svarterud iframe {
-            width: 100%;
-            height: 90%;
-        }
-    </style>
 </section>
 <section class="slide" id="femsjoen">
     <iframe src="https://www.searle.me.uk/static/femsjoen/Femsjoen.html"></iframe>
@@ -131,12 +140,6 @@
 </section>
 <section class="slide">
     <h2>Demo time</h2>
-
-    <ul>
-        <li>Take an Osmo pano</li>
-        <li>Stitch it</li>
-        <li>Publish it</li>
-    </ul>
 </section>
 <!--
     To hide progress bar from entire presentation
